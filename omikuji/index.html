@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>おみくじ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>冷泉みなとの初配信占い</h2>
+  <div class="body">
+    <div class="hidari">
+      <div class="subtitle">デビュー配信の運勢をチェック！</div>
+      <div class="text">
+        <span>あなたの心には、新しいことに挑戦する勇気や、配信が成功する予感があるかもしれません。</span>
+        <span>そんなときは、おみくじを引いてみるのはいかがでしょうか？</span>
+        <span>おみくじには、あなたの未来を照らすメッセージが込められています。</span>
+        <span>今すぐおみくじを引いて、あなたの配信人生に光を差し込んでみましょう！</span>
+      </div>
+    </div>
+    <div class="main">
+      <section>
+        <h1 class="unsei">初配信の運勢</h1>
+        <p id="result">?</p>
+      </section>
+  
+      <button id="btn" class="button" onmousedown="party.confetti(this)"><span>占う</span></button>
+    </div>
+    <div class="migi">
+      <div class="adv">
+        <div class="oneadvice" id="oneadvice"></div>
+        <div id="advice">一言アドバイス</div>
+        <div id="tyuui"></div>
+      </div>
+      <img src="gafu icon3.png" alt="アイコン">
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
